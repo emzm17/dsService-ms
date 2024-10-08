@@ -39,9 +39,9 @@ const applyStructuredOutput = (text) => {
 
     const currency = amountMatch ? amountMatch[1] : null;
     const amount = amountMatch ? amountMatch[2] : null;
-    const description = merchantMatch? merchantMatch[1] : null;
+    const merchant = merchantMatch? merchantMatch[1] : null;
     return {
-        currency,amount,description
+        currency,amount,merchant
     }
   };
 
