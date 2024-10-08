@@ -1,0 +1,6 @@
+# Exclude node_modules, logs, and Git files
+node_modules
+.git
+logs
+*.log
+.env
