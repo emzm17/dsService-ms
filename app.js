@@ -9,7 +9,7 @@ const app = express();
 
 const kafka = new Kafka({
     clientId: 'dsService',
-    brokers: ['localhost:9092'] // Change this to your Kafka broker address
+    brokers: ['kafka:9092'] // Change this to your Kafka broker address
   });
 const producer = kafka.producer();
 
